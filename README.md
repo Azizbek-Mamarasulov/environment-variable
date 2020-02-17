@@ -1,17 +1,17 @@
-####This module helps you to control your environment variables in one place.
+This module helps you to control your environment variables in one place.
 
-#####Run `npm install --save environment-variable` to install the package.
+Run `npm install --save environment-variable` to install the package.
 
-####Instructions below show you how to use this module in your project.
+Instructions below show you how to use this module in your project.
 
 1. create a env.json file in your root folder(the folder that includes your package.json file) or create a json file in any directory and pass that file as a first argument for init() method of the module`
 2. include the module in your main js file.
 3. call the init() method of the module to initialize your variables.
-#####and everything is done. Now you can access your variables
+and everything is done. Now you can access your variables
 
-####Here is an example of creating an env.json file in your root folder
+Here is an example of creating an env.json file in your root folder
 
-#####Imaginary **Root folder**
+Imaginary **Root folder**
 
 ```
 	node_modules/
@@ -19,7 +19,7 @@
 	index.js		// main js file
 ```
 
-#####**env.json** file			// env.json file should be in your root folder then this package can find it automatically.
+**env.json** file			// env.json file should be in your root folder then this package can find it automatically.
 
 ```
 	{
@@ -28,7 +28,7 @@
 	}
 ```
 
-#####your main js file [**index.js** file]
+your main js file [**index.js** file]
 
 ```
 	const envVar = require('environment-variable');
@@ -38,9 +38,9 @@
 	// logs 3000 to your console.
 ```
 
-####Here is an example of creating optional json file in any directory and use it with `environment-variable` package
+Here is an example of creating optional json file in any directory and use it with `environment-variable` package
 
-#####Imaginary **Root folder**
+Imaginary **Root folder**
 
 ```
 	node_modules/
@@ -49,7 +49,7 @@
 	index.js				// main js file
 ```
 
-#####**optional.js** file		// you will use this file insted of env.json file.
+**optional.js** file		// you will use this file insted of env.json file.
 
 ```
 	{
@@ -58,7 +58,7 @@
 	}
 ```	
 
-#####your main js file [**index.js** file]
+your main js file [**index.js** file]
 
 ```
 	const envVar = require('environment-variable');
@@ -68,7 +68,7 @@
 	// logs 5000 to your console.
 ```
 
-####Here is a list of all methods of this module.
+Here is a list of all methods of this module.
 
 Methods | Descriptions
 ------- | ------------
