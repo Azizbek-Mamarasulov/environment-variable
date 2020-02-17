@@ -1,0 +1,17 @@
+{
+  "name": "environment-variable",
+  "version": "1.0.5",
+  "description": "This module helps you to control your environment-variables in one place.",
+  "main": "index.js",
+  "author": "Azizbek Mamarasulov",
+  "license": "ISC",
+  "keywords": [
+    "environment",
+    "variable",
+    "variables",
+    "helper",
+    "json",
+    "settings",
+    "config"
+  ]
+}
