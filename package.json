@@ -1,6 +1,6 @@
 {
   "name": "environment-variable",
-  "version": "1.0.5",
+  "version": "2.0.2",
   "description": "This module helps you to control your environment-variables in one place.",
   "main": "index.js",
   "author": "Azizbek Mamarasulov",
@@ -13,5 +13,9 @@
     "json",
     "settings",
     "config"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Azizbek-Mamarasulov/environment-variable"
+  }
 }
