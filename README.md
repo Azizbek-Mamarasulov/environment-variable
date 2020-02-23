@@ -81,7 +81,7 @@ Imaginary `Root folder`
 	node_modules/
 	config/
 		optional.json		//this is an optional json file that you can use in your app insted of env.json file
-	index.js				// main js file
+	index.js			// main js file
 ```
 `optional.js` file		[you will use this file insted of env.json file.]
 
