@@ -1,5 +1,7 @@
 This module helps you to control your environment variables in one place.
 
+Advantages of using this module is that You can use nested values in your variables.
+
 Run `npm install --save environment-variable` to install the package.
 
 Instructions below show you how to use this module in your project.
